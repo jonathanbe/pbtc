@@ -16,7 +16,7 @@ text-align:center;
 }
 
 
-.mcbox{
+.mcbox{ 
     padding:0 auto;
     margin:0 auto;
     background:url(/images/photo-1441484295955-db07de1fdbad.jpeg) no-repeat;
@@ -30,15 +30,21 @@ text-align:center;
 /*https://media.giphy.com/media/wfzmCx4IWvxMQ/giphy.gif*/
 /*    http://www.gizmodo.in/photo/46691503.cms*/
     
-    background:url(/images/bg.gif) no-repeat;
-    
-    
-    
-    
+    background:url(images/bg.gif) no-repeat; 
     background position: relative;
     background-size: 100% 100%;
     height:100%;
     position:fixed;width:100%;
+}
+
+
+.effect-moveleft {
+    background:url(https://static.pexels.com/photos/30732/pexels-photo-30732-medium.jpg) no-repeat;
+    
+    background:url(images/qYpYJAU.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
 }
 
 .overlay0{
@@ -53,7 +59,7 @@ text-align:center;
 
 .overlay0 h2 {
     color:white;
-    letter-spacing:6px;
+    letter-spacing:10px;
     font-weight:100;
     text-align:center;
     font-size:36pt;
@@ -113,7 +119,7 @@ button{
 
 button:hover{
     color:#333;
-    color:#CFB53B;
+    color:#CFB53B; /* gold */
     background-color:#FFFFFF;
     
     transition: all .3s ease;
@@ -168,13 +174,112 @@ a.showmore2:hover{
 
 
 
+div.portfoliobox{
+    border:2px solid #e5e5e5;
+    border-radius:5px;
+    height:400px;
+    width:350px;
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px ;
+    margin-bottom:25px;
+    overflow:;
+    background-color:white;
+    
+    -webkit-box-shadow: 0px 2px 16px 0px rgba(50, 50, 50, 0.15);
+    -moz-box-shadow:    0px 2px 16px 0px rgba(50, 50, 50, 0.15);
+    box-shadow:         0px 2px 16px 0px rgba(50, 50, 50, 0.15);
+    
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    
+}
+
+
+div.portfoliobox:hover{
+    -webkit-box-shadow: 0px 2px 16px 0px rgba(207, 181, 59, 0.55);
+    -moz-box-shadow:    0px 2px 16px 0px rgba(207, 181, 59, 0.55);
+    box-shadow:         0px 2px 16px 0px rgba(207, 181, 59, 0.55);
+    border-color:#f0e5ae;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+div.portfoliobox img{
+    width:100%;
+    height:50%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+   
+}
+
+div.closer{
+    margin-left:25px;
+    margin-right:25px;
+    
+    width:auto;
+}
+
+
+.popup2{
+overflow:scroll;
+white-space:nowrap;
+
+}
+
+p.firstpara{
+    color:#333;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:9pt;
+    white-space: normal;
+    
+    
+}
+
+p.secondpara{
+    color:#333;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:9pt;
+    text-transform:uppercase;
+    white-space: normal !important;
+}
+
+td.rmx{
+    vertical-align: top; /* add vertical align top to fix this issue */
+    display: table-cell;
+    padding: 0px;
+    border: none;
+}
+
+table.portboxes{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+
+
+a.portlinks{
+    color:#CFB53B;
+    text-decoration:none;
+    letter-spacing:2px;
+}
+
+a.portlinks:hover{
+    text-decoration:underline;
+}
 
 ::selection {
-    background: #ff0d46;color:white;
+    background: #CFB53B;color:white;
 }
 
 
 
 ::-moz-selection {
-    background: #ff0d46;color:white;
+    background: #CFB53B;color:white;
 }
