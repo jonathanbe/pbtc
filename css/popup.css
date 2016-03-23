@@ -84,8 +84,12 @@ a.buttonPop:active{
   background: #fff;
   border-radius: 5px;
   width: 80%;
+  width:35%;
+   
+    
   position: relative;
   transition: all 1s ease-in-out;
+   
 }
 
 .popup h2 {
@@ -107,7 +111,7 @@ a.buttonPop:active{
   color: #CFB53B;
 }
 .popup .content {
-  max-height: 30%;
+ 
   overflow: auto;
   color:#333;
   text-align:left;
@@ -147,7 +151,27 @@ white-space:nowrap;
 }
 
 
+/* textarea scroll bar*/
 
+
+textarea::-webkit-scrollbar {
+    width:3px;position:fixed;z-index:99999;border-radius:50px;cursor:pointer;
+}
+ 
+textarea::-webkit-scrollbar-track {
+
+    border-radius: 0px;
+/*    background-color:#444;  eggshell f0ead6 */
+    z-index:99999;
+  
+
+}
+ 
+textarea::-webkit-scrollbar-thumb {
+    border-radius:25px;cursor:pointer;
+    background: #ddc764;
+
+}
 
 .popup2{
     
@@ -191,6 +215,51 @@ white-space:nowrap;
 }
 
 
+
+.popup3{
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 35%;
+  height:65%;     
+      
+  position: relative;
+  transition: all 1s ease-in-out;
+   
+}
+
+.popup3 h2 {
+  margin-top: 0;
+  color: #333;
+}
+.popup3 .close {
+  position: absolute;
+  top: 5px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  font-weight:100;    
+}
+
+.popup3 .close:hover {
+  color: #CFB53B;
+}
+
+.popup3 .content {
+  height:auto;    
+  overflow: none;
+  color:#333;
+  text-align:left;
+  margin-left:15%;
+  margin-right:15%;
+  font-size:10pt;
+  letter-spacing:2px;
+  margin-bottom:25px;
+}
 
 @media screen and (max-width: 700px){
   .box{

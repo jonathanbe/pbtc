@@ -52,7 +52,7 @@ text-align:center;
     color:#FFFFFF;
     font-size:11pt;
     letter-spacing:2px;
-    margin-top:250px;
+    margin-top:190px;
     height:200px;
     text-align:center;
 }
@@ -457,6 +457,100 @@ a.contact2:active{
     -moz-transition:all .3s ease;
     -o-transition:all .3s ease;  
 }
+
+/* audio player*/
+
+
+#audioplayer{
+	width: 0px;
+	height: 0px;
+	left:95%;
+    top:-40px;
+    position:relative;
+    
+    /*width:90px;height:90px;
+    line-height:90px;
+    rgba()*/
+
+}
+
+#pButton{
+    background:;
+    
+    
+    display:inline-block;
+    border: 1px solid white;
+    padding:20px 20px;
+    border-radius:100px;
+    background-size: 20px;
+    background-position:center center;
+    margin-left:;
+    background-repeat: no-repeat;
+   
+}
+
+#pButton:hover{
+ background:;
+}
+
+.play{
+    background: url(images/musicNote.png) ;
+   
+}
+
+
+.pause{
+    background: url(images/pause.png) ;
+    
+}
+
+
+.play:hover, .pause:hover{
+background-color:rgba(255,255,255,0.2);  
+}
+
+#timeline{
+	width: 400px;
+	height: 20px;
+	margin-top: 20px;
+	float: left;
+	border-radius: 15px;
+	background: rgba(0,0,0,.3);
+    
+    display:none;
+  
+}
+#playhead{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-top: 1px;
+	background: rgba(0, 0, 0,1);
+    
+    display:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ::selection {
     background: #CFB53B;color:white;
