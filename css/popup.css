@@ -205,7 +205,7 @@ textarea::-webkit-scrollbar-thumb {
 .popup2 .content {
   max-height: 30%;
   overflow: auto;
-  color:#111;
+  color:#333;
   text-align:left;
   margin-left:5%;
   margin-right:5%;
@@ -215,7 +215,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .popup3 a{
-    color:#333;
+    color:#111;
     letter-spacing:2px;
     text-decoration:none;
     
