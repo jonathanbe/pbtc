@@ -333,7 +333,7 @@ else                /* send the submitted data */
     else{         
         $from="From: $name<$email>\r\nReturn-path: $email"; 
         $subject="Message sent using your contact form"; 
-        mail("jonathan.on@Hotmail.com", $subject, $message, $from); 
+        mail("jnb.writer@gmail.com", $subject, $message, $from); 
         echo "Thank you for contacting me. I will be in touch withing the next 24 hours."; 
         } 
     }   
