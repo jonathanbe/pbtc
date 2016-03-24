@@ -215,7 +215,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .popup3 a{
-    color:#111;
+    color:#CFB53B; /* gold */
     letter-spacing:2px;
     text-decoration:none;
     
@@ -227,7 +227,7 @@ textarea::-webkit-scrollbar-thumb {
 
 .popup3 a:hover{
      color:#CFB53B; /* gold */
-    
+    text-decoration:underline;
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
