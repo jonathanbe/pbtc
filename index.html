@@ -297,24 +297,42 @@
                   <a class="close" href="#">&times;</a>
                   <div class="content">
                       
-                    
+                    <!--
                     <input class="contact" placeholder="Name" / >
                     <input class="contact" placeholder="Email" / >
                     <textarea class="contact" placeholder="message" ></textarea>
                     <a class="contact2">Contact</a>
-                   
- <!--                     
+                   -->
+                    
 <form action="https://formspree.io/jonathan.on@Hotmail.com"
       method="POST">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-  <textarea type="text" name="message"></textarea>
-    <input type="submit" value="Send">
-</form> -->
+    
+<input type="hidden" name="_next" value="http://127.0.0.1:49391/index.html#popup4"/>    
+    <input type="text" class="contact" placeholder="name" name="name" autocomplete="off">
+    <input type="email" class="contact" placeholder="email" name="_replyto" autocomplete="off">
+  <textarea type="text" class="contact" placeholder="message" name="message"></textarea>
+    <input type="submit" class="contactbutton" value="Contact">
+</form> 
 
                   </div>
                 </div>
               </div>
+                
+                
+                        <div id="popup4" class="overlay">
+                <div class="popup3">
+                  <h2 style="color:#444;letter-spacing:4px;font-weight:100;">Contact</h2>
+                  <a class="close" href="#">&times;</a>
+                  <div class="content">
+                      
+                Thank you for contacting me. I will read your inquiry, and be in touch withing the next 24 hours.
+                      
+                      
+
+                  </div>
+                </div>
+              </div>    
+                
             </div>
               
               

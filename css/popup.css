@@ -214,8 +214,9 @@ textarea::-webkit-scrollbar-thumb {
     margin-bottom:25px;
 }
 
+/*
 .popup3 a{
-    color:#CFB53B; /* gold */
+    color:#CFB53B;
     letter-spacing:2px;
     text-decoration:none;
     
@@ -226,13 +227,15 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .popup3 a:hover{
-     color:#CFB53B; /* gold */
+     color:#CFB53B; 
     text-decoration:underline;
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
     -o-transition:all .3s ease;
 }
+
+*/
 
 .popup3{
   margin: 70px auto;
