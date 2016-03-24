@@ -205,7 +205,7 @@ textarea::-webkit-scrollbar-thumb {
 .popup2 .content {
   max-height: 30%;
   overflow: auto;
-  color:#333;
+  color:#111;
   text-align:left;
   margin-left:5%;
   margin-right:5%;

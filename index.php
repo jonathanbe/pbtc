@@ -328,13 +328,13 @@ else                /* send the submitted data */
     $message=$_REQUEST['message']; 
     if (($name=="")||($email=="")||($message=="")) 
         { 
-        echo "All fields are required, please fill <a href=\"#popup3\" target="_blank">the form</a> again."; 
+        echo "All fields are required, please fill <a href=\"\">the form</a> again."; 
         } 
     else{         
         $from="From: $name<$email>\r\nReturn-path: $email"; 
         $subject="Message sent using your contact form"; 
         mail("jnb.writer@gmail.com", $subject, $message, $from); 
-        echo "Thank you for contacting me. I will be in touch withing the next 24 hours."; 
+        echo "Thank you for contacting me. I will read your inquiry, and be in touch withing the next 24 hours."; 
         } 
     }   
 ?> 
