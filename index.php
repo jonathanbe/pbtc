@@ -328,7 +328,7 @@ else                /* send the submitted data */
     $message=$_REQUEST['message']; 
     if (($name=="")||($email=="")||($message=="")) 
         { 
-        echo "All fields are required, please fill <a href=\"\#popup3">the form</a> again."; 
+        echo "All fields are required, please fill <a href=\"\popup3">the form</a> again."; 
         } 
     else{         
         $from="From: $name<$email>\r\nReturn-path: $email"; 
