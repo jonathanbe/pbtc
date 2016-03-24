@@ -312,11 +312,11 @@ if ($action=="")    /* display the contact form */
     <form  action="" method="POST" enctype="multipart/form-data"> 
     <input type="hidden" name="action" value="submit"> 
 
-    <input class="contact" name="name" type="text" pleaceholer="name"/>
+    <input class="contact" name="name" type="text" placeholder="name"/>
    
     <input class="contact" name="email" type="text" placeholder="email"/>
     
-    <textarea class="contact" name="message" placeholder="message"></textarea> 
+    <textarea class="contact" name="message" placeholder="message"></textarea> <br>
     <input class="contactbutton" type="submit" value="Send email"/> 
     </form> 
     <?php 

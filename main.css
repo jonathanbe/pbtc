@@ -472,6 +472,30 @@ input.contactbutton:hover{
 }
 
 
+input.contactbutton{
+    display:inline-block;
+    width:100%;
+    height:45px;
+    line-height:45px;
+    margin-top:25px;
+    text-align:center;
+    cursor:pointer;
+    border:2px solid #333;
+    background-color:transparent;
+    border-radius:5px;
+    color:#333;
+    font-size:13pt;
+    font-weight:800;
+    letter-spacing:5px;
+    
+    transition:all .3s ease;
+    -webkit-transition:all .3s ease;
+    -moz-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    
+    
+}
+
 input.contactbutton:active{
     position:relative;
     top:8px;
