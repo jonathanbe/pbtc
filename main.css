@@ -499,11 +499,15 @@ input.contactbutton{
 input.contactbutton:active{
     position:relative;
     top:8px;
-    
+    outline:none;
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
     -o-transition:all .3s ease;  
+}
+
+input.contactbutton:focus{
+    outline:none;
 }
 
 /* audio player*/

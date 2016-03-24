@@ -317,7 +317,7 @@ if ($action=="")    /* display the contact form */
     <input class="contact" name="email" type="text" placeholder="email"/>
     
     <textarea class="contact" name="message" placeholder="message"></textarea> <br><br>
-    <input class="contactbutton" type="submit" value="Send email"/> 
+    <input class="contactbutton" type="submit" value="Contact"/> 
     </form> 
     <?php 
     }  
