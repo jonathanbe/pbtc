@@ -96,8 +96,7 @@ button#showMenu{
   border-radius: 0px;
 width:100% !important;
     height:100% !important;
-  max-width: 100% !important;
-  max-height: 100% !important;
+  
   position: relative;
   transition: all 1s ease-in-out;
   

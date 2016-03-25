@@ -181,7 +181,7 @@ textarea::-webkit-scrollbar-thumb {
   background: #eaeaea;
   background: #fff;
   border-radius: 5px;
-  max-width: 85%;
+  width: 85%;
   position: relative;
   transition: all 1s ease-in-out;
     
