@@ -1,1 +1,84 @@
+ @media only screen 
+  and (min-width: 375px) 
+  and (max-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+
+
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.overlay0{
+    background-color:transparent;
+    color:#FFFFFF;
+    font-size:11pt;
+    letter-spacing:2px;
+    margin-top:-20px;
+    height:200px;
+    text-align:center;
+}
+   
+      
+.overlay2{
+    color:white;
+    text-align:center;
+    margin-top:10px;
+    background-color:transparent;
+    
+}      
+      
+#audioplayer{
+	left:93%;
+}
  
+      
+.outer-nav.right {
+	right: 12%;
+}
+      
+}
+
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+
+
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+}
