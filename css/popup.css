@@ -244,6 +244,7 @@ textarea::-webkit-scrollbar-thumb {
   border-radius: 5px;
   width: 35%;
   height:65%;     
+  height:85%;     
       
   position: relative;
   transition: all 1s ease-in-out;
